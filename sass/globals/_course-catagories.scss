@@ -1,0 +1,68 @@
+.course_cat{
+    position: relative;
+
+    &_head{
+        text-align: center;
+        padding-top: 100px;
+        font-size: 30px;
+    }
+
+    &_img1{
+        width: 50%;
+        padding-top: 30px;
+        padding-left: 100px;
+    }
+
+    &_img1 img{
+        max-width: 100%;
+    }
+
+    &_box{
+        position: relative;
+    }
+
+    &_box2{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: var(--white);
+        text-align: center;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    &_img2{
+        width: 24%;
+        padding-left: 100px;
+        padding-top: 24px;
+    }
+
+    &_img2 img{
+        max-width: 100%;
+    }
+
+    &_img3{
+        width: 24%;
+        position: absolute;
+        left: 495px;
+        top: 700px;
+    }
+
+    &_img3 img{
+        max-width: 100%;
+    }
+
+    &_img4{
+        width: 500px;
+        height: 200px;
+        position: absolute;
+        top: 167px;
+        left: 890px;
+    }
+    
+    &_img4 img{
+        width: 500px;
+        height: 777px;
+        object-fit: cover;
+    }
+}

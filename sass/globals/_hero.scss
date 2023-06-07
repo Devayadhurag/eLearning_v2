@@ -1,0 +1,38 @@
+.hero{
+    padding: 200px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.6)url(/assets/education.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+    &__txt_1{
+        font-size: 20px;
+        color: var(--primary-color);
+    }
+
+    &__txt_2{
+        font-size: 50px;
+        color: var(--white);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    &__dummy{
+        color: var(--white);
+        padding: 10px;
+    }
+
+    &__read_btn{
+        height: 50px;
+        width: 150px;
+        font-size: 100%;
+        color: var(--white);
+        background-color: var(--primary-color);
+        margin: 10px;
+    }
+
+    &__join_btn{
+        height: 50px;
+        width: 150px;
+        font-size: 100%;
+    }
+}

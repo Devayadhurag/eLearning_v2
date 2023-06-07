@@ -1,0 +1,13 @@
+.section_1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+
+    &__container{
+        background-color: var(--secondary-color);
+        text-align: center;
+        padding: 100px 50px;
+        border-radius: 5%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

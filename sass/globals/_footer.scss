@@ -1,0 +1,64 @@
+.footer {
+    width: 100%;
+    float: left;
+    background-color: var(--dark-blue);
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 60px;
+
+    &__container{
+        &_quick_text{
+            width: 100%;
+            float: left;
+            font-size: 30px;
+            color: var(--white);
+            padding-left: 160px;
+        }
+
+        &_lorem_text{
+            width: 30%;
+            float: left;
+            font-size: 20px;
+            color: var(--white);
+            padding-left: 160px;
+            padding-top: 10px;
+            line-height: 40px;
+        }
+
+        &_news{
+            width: auto;
+            position: relative;
+            left: 30rem;
+            top: 30px;
+            
+            &_1{
+                font-size: 40px;
+                color: var(--white);
+                font-weight: 700;
+            }
+        }
+
+        &_box{
+            width: 100%;
+            position: relative;
+            top: 50px;
+            left: 30rem;
+
+            &_btn{
+                padding: 10px 50px;
+            }
+        }
+
+        &_subscribe{
+            width: 100px;
+            height: 50px;
+            position: relative;
+            left: 41rem;
+            top: -4px;
+            background-color: var(--primary-color);
+            font-weight: 700;
+        }
+    }
+ }
+

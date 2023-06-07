@@ -1,0 +1,38 @@
+.navbar{
+    background: var(--white);
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    gap: 30px;
+    float: right;
+    margin-right: 20px; 
+}
+  
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 auto;
+}
+  
+nav ul li a {
+    color: var(--black);
+    font-size: 17px;
+    padding: 30px 20px;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+.navbar__logo {
+    color: var(--primary-color);
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-weight: 750;
+    line-height: 80px;
+    padding: 0 50px;
+}
+
+.navbar__login{
+    background: var(--primary-color);
+    color: var(--white);
+}
